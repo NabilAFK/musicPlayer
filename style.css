@@ -1,0 +1,135 @@
+*{
+     -moz-box-sizing:border-box;
+      box-sizing:border-box; 
+     -webkit-box-sizing:border-box
+}
+
+ body{
+   background: linear-gradient(#EF3B36,#ffffff);
+} 
+.lead, .jumbotron-fluid, .jumbotron{
+    margin: 0;
+    
+}
+.jumbotron{
+    background: url("photo.jpeg");
+    border-bottom: 20px solid #0072bb;
+}
+.result{
+    display: inline-block;
+}
+#playlist{
+    margin: 0;
+    height: 60px;
+    line-height: 50px;
+    font-size: 2em;
+    font-weight: 700;
+    color: beige;
+    text-transform: uppercase;
+    background-color: #0072bb;
+    border-bottom-left-radius: 60px;
+    border-bottom-right-radius: 60px;
+}
+input{
+    width: 80%;
+    height: 35px;
+    margin: 15px 10px;
+    border: 0;
+    border-radius: 10px;
+    padding-bottom: 4px;
+    font-weight: 600;  
+}
+input:focus{
+    background-color: #ffe66d;
+    box-shadow: 0 0 10px cornflowerblue;
+}
+input:hover{
+    box-shadow: 0 0 10px cornflowerblue;
+    box-shadow: 0 1px 10px cornflowerblue;
+    box-shadow: 1px 0 10px cornflowerblue;
+
+}
+.playlist{
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    background: -o-linear-gradient(#EF3B36,#ffffff);
+}
+.searchArea{
+    text-align: center;
+    padding-left: 30px;
+    display: inline;
+
+}
+.card-deck{
+    text-align: end;
+}
+.card{
+    margin:  20px 15px;
+    width: 14rem; 
+    height: 330px; 
+    text-align: center;
+    border: 0;
+    border-radius: 30px;
+    transition: all 0.5s;
+    display: inline-flex;
+    
+}
+.card:hover{
+    transform: translate(4px,4px);
+    box-shadow: -5px -5px 10px black;
+    display: inline-flex;
+}
+.card img{
+    height: 15rem;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    margin-bottom: 5px;
+}
+iframe{
+    margin: 20px 0;
+    width: 80%;
+    height: 240px;
+
+    border-radius: 20px;
+    box-shadow: 7px 7px 10px black  ;
+}
+a{
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+}
+.btn{
+    background-color: #ffe66d;
+    padding: 10px 0 0 0;
+    font-size: 1.2em;
+    font-weight: 700;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.go{
+    padding: 0 ;
+    height: 35px;
+    border-radius: 10px ;
+    width: 12%;
+}
+.go:hover{
+    transform: translate(2px,2px);
+    box-shadow: -2px -2px 5px black;
+    color: #fe3114;
+    background-color: white;
+    border: 2px solid #fe3114;
+}
+
+.reset{
+    position: absolute;
+    right: 30px;
+    padding: 0;
+    background: 0;
+    border: 0;
+    color: yellowgreen;
+    transition: ease-in-out 0.5s;
+}
+.reset:hover{
+    transform: rotate(90deg);
+}

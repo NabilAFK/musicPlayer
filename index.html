@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Music Player</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="jumbotron jumbotron-fluid">
+            <div class="container">
+                <span class="fas fa-music fa-3x"></span>
+              <h1 style="display: inline;" class="display-4">   Music Player</h1>
+              <p class="lead">Online Music Player created using Soundcloud API.</p>
+            </div>
+          </div>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="playlist col-5">
+                    <p id="playlist">Playlist
+                        <i class="fas fa-music"></i>
+                        <button class="reset"><i class="fas fa-redo fa-sm"></i></button>
+                        <div class="playlistArea"></div>
+                    </p>
+                </div>
+                <div class="result col">
+                    <input type="text" placeholder="Search for Song or Artist...">
+                    <button class="go btn btn-warning"><i class="fas fa-search fa-1x"></i></button>
+                    <div class="searchArea card-deck">
+                    
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+
+
+        <script src="https://kit.fontawesome.com/c7fb6f73ff.js" crossorigin="anonymous"></script>
+        <script src="https://connect.soundcloud.com/sdk/sdk-3.3.2.js"></script>
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+        <script src="config.js"></script>
+        <script src="main.js" async defer></script>
+    </body>
+</html>
